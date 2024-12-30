@@ -1,0 +1,16 @@
+{
+    "mainTitle": "لوحة معلومات ARCMATE",
+    "reposSelectTitle": "المستودعات",
+    "documentTypeSelectTitle": "أنواع المستندات",
+    "startDateInputTitle": "تاريخ البداية",
+    "endDateInputTitle": "تاريخ النهاية",
+    "reportTableTitle": "البيانات العامة للتقرير",
+    "reportTableColumns": {
+        "documents": "المستندات",
+        "files": "الملفات",
+        "filePages": "الصفحات"
+    },
+    "LanguageArabic": "العربية",    
+    "LanguageEnglish": "الإنجليزية",
+    "wordRate":"معدل"
+}

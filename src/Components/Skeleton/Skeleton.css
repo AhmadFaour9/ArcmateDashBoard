@@ -1,0 +1,40 @@
+.skelton-con {
+    background-color: #171717;
+    padding: 45px 50px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skeleton-img {
+    width: 90%;
+    height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    animation: skeleton 1s ease-in-out infinite alternate;
+}
+
+.p-skeleton {
+    width: 70%;
+    height: 18px;
+    background-color: gray;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    animation: skeleton 1s ease-in-out infinite alternate;
+}
+
+@keyframes skeleton {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: .5;
+    }
+
+}

@@ -1,0 +1,16 @@
+{
+    "mainTitle": "Arcmate Dashboard",
+    "reposSelectTitle": "Repostories",
+    "documentTypeSelectTitle": "Document Types",
+    "startDateInputTitle": "Start Date",
+    "endDateInputTitle": "End Date",
+    "reportTableTitle":"Report Global Data",
+    "reportTableColumns": {
+        "documents": "Documents",
+        "files": "Files",
+        "filePages": "Pages"
+    },
+    "LanguageArabic": "Ar",    
+    "LanguageEnglish": "En",
+    "wordRate":"Rate"
+}

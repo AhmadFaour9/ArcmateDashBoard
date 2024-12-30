@@ -1,0 +1,53 @@
+{
+  "name": "architecture-for-react-developers",
+  "version": "1.0.0",
+  "description": "A comprehensive boilerplate for React projects utilizing Vite, featuring an optimal directory structure and essential packages for modern web development. This package offers a well-organized setup for scalable and maintainable React applications, integrating popular tools and libraries for streamlined development. It includes Vite for fast and efficient build processes and development server setup, React and React-DOM for building interactive UIs, Redux and @reduxjs/toolkit for state management, React Router for routing and navigation, Axios for making HTTP requests, Bootstrap for responsive and customizable UI components, i18next and react-i18next for internationalization, ESLint and Prettier for code quality and formatting, and Jest and React Testing Library for unit and integration testing. This setup promotes best practices and ensures a robust foundation for developing high-performance, feature-rich web applications with React.",
+  "main": "src/main.jsx",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.6",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "html2canvas": "^1.4.1",
+    "i18next": "^23.11.5",
+    "i18next-http-backend": "^2.5.2",
+    "js-cookies": "^1.0.4",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^14.1.2",
+    "react-icons": "^5.4.0",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.24.1",
+    "recharts": "^2.15.0",
+    "redux": "^5.0.1",
+    "swiper": "^11.1.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^5.3.1"
+  },
+  "keywords": [
+    "react",
+    "library",
+    "ui",
+    "component"
+  ],
+  "author": "Eng. Ahmad Faour",
+  "license": "MIT"
+}
